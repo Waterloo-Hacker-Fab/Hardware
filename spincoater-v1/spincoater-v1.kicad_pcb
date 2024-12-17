@@ -18072,7 +18072,7 @@
 	)
 	(gr_circle
 		(center 61 153.5)
-		(end 63.6 153.5)
+		(end 63 153.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -18094,7 +18094,7 @@
 	)
 	(gr_circle
 		(center 61 22.5)
-		(end 63.6 22.5)
+		(end 63 22.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -18105,7 +18105,7 @@
 	)
 	(gr_circle
 		(center 197 22.5)
-		(end 199.6 22.5)
+		(end 199 22.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -18116,7 +18116,7 @@
 	)
 	(gr_circle
 		(center 197 153.5)
-		(end 199.6 153.5)
+		(end 199 153.5)
 		(stroke
 			(width 0.05)
 			(type default)
