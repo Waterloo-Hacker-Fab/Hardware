@@ -1961,7 +1961,7 @@
 			)
 		)
 		(property "Value" "POT_PIN27"
-			(at 2.975 2.525 180)
+			(at -3.2831 8.84 180)
 			(layer "F.Fab")
 			(uuid "79f854dd-3256-4919-8a31-6741ec8bc898")
 			(effects
@@ -2556,7 +2556,7 @@
 			)
 		)
 		(property "Value" "POT_PIN28"
-			(at 2.92 2.5 180)
+			(at -2.8081 -6.175 180)
 			(layer "F.Fab")
 			(uuid "a1104445-76c2-48a3-b789-c44fae3f2080")
 			(effects
@@ -14728,7 +14728,7 @@
 			)
 		)
 		(property "Value" "12V_DC"
-			(at 2.7169 0.975 180)
+			(at 0.2169 7.475 180)
 			(layer "F.Fab")
 			(uuid "b687cb52-8ff5-48c7-8469-2471ce7cd61d")
 			(effects
@@ -15312,7 +15312,7 @@
 			)
 		)
 		(property "Value" "MOTOR"
-			(at 3 4.04 180)
+			(at -2.7831 3.75 180)
 			(layer "F.Fab")
 			(uuid "734291b0-729f-43b0-8d5e-b6e7f5cd946c")
 			(effects
@@ -18071,8 +18071,8 @@
 		)
 	)
 	(gr_circle
-		(center 61 153.5)
-		(end 63 153.5)
+		(center 65.5 153.5)
+		(end 67.5 153.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -18082,7 +18082,7 @@
 		(uuid "0ed50b56-1bf6-4796-afb5-092117dc0961")
 	)
 	(gr_rect
-		(start 56 17.5)
+		(start 61 17.5)
 		(end 202 158)
 		(stroke
 			(width 0.05)
@@ -18093,8 +18093,8 @@
 		(uuid "749ccb19-44c6-4de8-900d-7d6a1ff03714")
 	)
 	(gr_circle
-		(center 61 22.5)
-		(end 63 22.5)
+		(center 65.5 22.5)
+		(end 67.5 22.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -18124,6 +18124,150 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "e1d0be95-fb49-46cf-80d5-f77dd77e35c8")
+	)
+	(gr_text "LCD Contrast"
+		(at 83.5 37 90)
+		(layer "F.SilkS")
+		(uuid "08667d72-b86a-4dbe-92a6-f20e5034e7bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "KEYPAD"
+		(at 126.5 154.5 0)
+		(layer "F.SilkS")
+		(uuid "37dab5ca-c20a-4bdf-891a-b6c9c9991876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 189.5 30.5 0)
+		(layer "F.SilkS")
+		(uuid "6a4c1b7d-0f33-4448-8c03-3a23e90c3c97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 186 30.5 0)
+		(layer "F.SilkS")
+		(uuid "6ed07953-ff76-4c48-bf3f-4428e1c45495")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LCD Brightness"
+		(at 65 37.5 90)
+		(layer "F.SilkS")
+		(uuid "911511a7-b812-493d-8b4c-d9ae6817d362")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LCD"
+		(at 114.5 39 0)
+		(layer "F.SilkS")
+		(uuid "9610543d-ee21-48d8-891d-c325460ca078")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RPi Pico"
+		(at 74 122 0)
+		(layer "F.SilkS")
+		(uuid "9884aef4-06cd-4d33-86d7-7eb4c1d2deda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "FUSE"
+		(at 197.5 116.5 90)
+		(layer "F.SilkS")
+		(uuid "a617c287-577c-4d18-8514-2ce18cda5023")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "POT_PIN28"
+		(at 152.5 140.5 0)
+		(layer "F.SilkS")
+		(uuid "ac2386e2-3a60-4d45-b844-2f88f87228ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MOTOR"
+		(at 126.5 25 0)
+		(layer "F.SilkS")
+		(uuid "bf70f9aa-a08c-481a-b9a4-a61021620276")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "POT_PIN27"
+		(at 169.5 140.5 0)
+		(layer "F.SilkS")
+		(uuid "ec0f582d-327a-480e-ae83-e487cad7421c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SD CARD"
+		(at 62 93 -90)
+		(layer "F.SilkS")
+		(uuid "fa08f3e3-f921-4646-b990-bcc4cd6e8d38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 85.1357 113.2447)
