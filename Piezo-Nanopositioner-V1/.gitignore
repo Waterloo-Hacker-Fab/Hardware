@@ -1,5 +1,5 @@
 # Ignore KiCad fp-info-cache folder
-/fp-info-cache/
+fp-info-cache
 
 # Ignore any files ending with .lck
 *.lck
