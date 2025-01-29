@@ -335,11 +335,35 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -386,6 +410,18 @@
     [
       "7b2a32d8-cc7d-471d-a8eb-eea62713ed45",
       "Root"
+    ],
+    [
+      "d7b1beb2-d1b4-4fd6-841d-9655fbd1005d",
+      "X_DAC"
+    ],
+    [
+      "2b7af091-9ff3-4afc-ada8-05e74516fa9c",
+      "Y_DAC"
+    ],
+    [
+      "1b533877-0759-4ff4-afbe-7d3193837966",
+      "Z_DAC"
     ]
   ],
   "text_variables": {}
