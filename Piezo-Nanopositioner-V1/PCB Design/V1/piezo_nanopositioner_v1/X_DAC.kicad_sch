@@ -1678,7 +1678,7 @@
 				)
 			)
 			(property "Value" "RF2-04A-T-00-50-G"
-				(at 0 0 0)
+				(at -10.668 -7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1686,7 +1686,7 @@
 				)
 			)
 			(property "Footprint" "CONN_RF2-04A-T-00-50-G_ADM"
-				(at 0 0 0)
+				(at 0.762 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 				)
 			)
 			(property "Datasheet" "RF2-04A-T-00-50-G"
-				(at 0 0 0)
+				(at -7.62 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1767,42 +1767,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.7 -2.54) (xy 12.7 2.54)
 					)
 					(stroke
@@ -1828,17 +1792,17 @@
 				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
-					(name "1"
+					(name "Sig"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -3586,75 +3550,6 @@
 		(uuid "cfbef09e-62f5-4eb2-b457-8ac197383ce4")
 	)
 	(symbol
-		(lib_id "SMA_Connector:RF2-04A-T-00-50-G")
-		(at 220.98 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0441b07a-4c5c-4605-b4d8-827aa52116b5")
-		(property "Reference" "J5"
-			(at 234.95 101.5999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF2-04A-T-00-50-G"
-			(at 234.95 104.1399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF:CONN_RF2-04A-T-00-50-G_ADM"
-			(at 220.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RF2-04A-T-00-50-G"
-			(at 220.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f91d7fce-04bb-403b-9b7e-03d576ad11aa")
-		)
-		(instances
-			(project "piezo_nanopositioner_v1"
-				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 200.66 121.92 0)
 		(unit 1)
@@ -4915,6 +4810,75 @@
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMA_Connector:RF2-04A-T-00-50-G")
+		(at 220.98 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aae80ee-8e5d-48f6-a08d-915f0d786764")
+		(property "Reference" "J5"
+			(at 234.95 101.5999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF2-04A-T-00-50-G"
+			(at 234.95 104.1399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_RF2-04A-T-00-50-G_ADM"
+			(at 221.742 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RF2-04A-T-00-50-G"
+			(at 213.36 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8698991e-021e-4e1b-89b1-101d1f61b136")
+		)
+		(instances
+			(project "piezo_nanopositioner_v1"
+				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
+					(reference "J5")
 					(unit 1)
 				)
 			)

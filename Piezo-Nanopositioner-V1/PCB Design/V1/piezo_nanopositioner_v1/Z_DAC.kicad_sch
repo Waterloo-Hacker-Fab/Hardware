@@ -1678,7 +1678,7 @@
 				)
 			)
 			(property "Value" "RF2-04A-T-00-50-G"
-				(at 0 0 0)
+				(at -10.668 -7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1686,7 +1686,7 @@
 				)
 			)
 			(property "Footprint" "CONN_RF2-04A-T-00-50-G_ADM"
-				(at 0 0 0)
+				(at 0.762 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 				)
 			)
 			(property "Datasheet" "RF2-04A-T-00-50-G"
-				(at 0 0 0)
+				(at -7.62 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1767,42 +1767,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.7 -2.54) (xy 12.7 2.54)
 					)
 					(stroke
@@ -1828,17 +1792,17 @@
 				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
-					(name "1"
+					(name "Sig"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -3421,6 +3385,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 106.68) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd830cab-b7df-438e-bb2d-22c47925afc6")
+	)
+	(wire
+		(pts
 			(xy 194.31 121.92) (xy 194.31 120.65)
 		)
 		(stroke
@@ -3488,16 +3462,6 @@
 			(type default)
 		)
 		(uuid "fc42bdb6-c97d-4706-97e0-548e708cf975")
-	)
-	(wire
-		(pts
-			(xy 217.17 106.68) (xy 224.79 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe97c615-8f9d-4490-86d2-d106db54bd8d")
 	)
 	(rectangle
 		(start 34.29 55.88)
@@ -4257,75 +4221,6 @@
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/1b533877-0759-4ff4-afbe-7d3193837966"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMA_Connector:RF2-04A-T-00-50-G")
-		(at 224.79 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "438a2f35-8777-4d42-b94d-cc1d7b4b6b9c")
-		(property "Reference" "J9"
-			(at 238.76 105.4099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF2-04A-T-00-50-G"
-			(at 238.76 107.9499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF:CONN_RF2-04A-T-00-50-G_ADM"
-			(at 224.79 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RF2-04A-T-00-50-G"
-			(at 224.79 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73293b02-fac2-4e5b-8a4c-566a6c1465f0")
-		)
-		(instances
-			(project "piezo_nanopositioner_v1"
-				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/1b533877-0759-4ff4-afbe-7d3193837966"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6242,6 +6137,75 @@
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/1b533877-0759-4ff4-afbe-7d3193837966"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMA_Connector:RF2-04A-T-00-50-G")
+		(at 224.79 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf41fa5-1f11-475f-912f-31237c1373ae")
+		(property "Reference" "J2"
+			(at 238.76 105.4099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF2-04A-T-00-50-G"
+			(at 238.76 107.9499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_RF2-04A-T-00-50-G_ADM"
+			(at 225.552 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RF2-04A-T-00-50-G"
+			(at 217.17 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a813ad9f-a1eb-4c61-b7a4-55f2adf12a45")
+		)
+		(instances
+			(project ""
+				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/1b533877-0759-4ff4-afbe-7d3193837966"
+					(reference "J2")
 					(unit 1)
 				)
 			)

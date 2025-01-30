@@ -1,4 +1,4 @@
-24155812643620099
+24157550827852098
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87636,6 +87636,13 @@ Potentiometer_THT
 Potentiometer_Vishay_T93YA_Vertical
 Potentiometer, vertical, Vishay, https://www.vishay.com/docs/51026/t93.pdf
 Potentiometer vertical vishay
+0
+3
+3
+Potentiometer_THT
+TRIM_COM-09806
+
+
 0
 3
 3

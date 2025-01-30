@@ -1678,7 +1678,7 @@
 				)
 			)
 			(property "Value" "RF2-04A-T-00-50-G"
-				(at 0 0 0)
+				(at -10.668 -7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1686,7 +1686,7 @@
 				)
 			)
 			(property "Footprint" "CONN_RF2-04A-T-00-50-G_ADM"
-				(at 0 0 0)
+				(at 0.762 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 				)
 			)
 			(property "Datasheet" "RF2-04A-T-00-50-G"
-				(at 0 0 0)
+				(at -7.62 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1767,42 +1767,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.7 -2.54) (xy 12.7 2.54)
 					)
 					(stroke
@@ -1828,17 +1792,17 @@
 				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
-					(name "1"
+					(name "Sig"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4256,75 +4220,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMA_Connector:RF2-04A-T-00-50-G")
-		(at 224.79 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24ce7934-2dbc-4aef-833a-8001fc734849")
-		(property "Reference" "J7"
-			(at 238.76 100.3299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF2-04A-T-00-50-G"
-			(at 238.76 102.8699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF:CONN_RF2-04A-T-00-50-G_ADM"
-			(at 224.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RF2-04A-T-00-50-G"
-			(at 224.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bb28c07-0827-4661-9d01-c4bb5450785e")
-		)
-		(instances
-			(project "piezo_nanopositioner_v1"
-				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/2b7af091-9ff3-4afc-ada8-05e74516fa9c"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 67.31 111.76 90)
 		(unit 1)
@@ -5130,6 +5025,75 @@
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/2b7af091-9ff3-4afc-ada8-05e74516fa9c"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMA_Connector:RF2-04A-T-00-50-G")
+		(at 224.79 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7379e4b2-3301-471a-9538-e3740dd5f1d6")
+		(property "Reference" "J3"
+			(at 238.76 100.3299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF2-04A-T-00-50-G"
+			(at 238.76 102.8699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_RF2-04A-T-00-50-G_ADM"
+			(at 225.552 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RF2-04A-T-00-50-G"
+			(at 217.17 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01316405-083f-45b5-8f15-8b8d82a5edc1")
+		)
+		(instances
+			(project "piezo_nanopositioner_v1"
+				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/2b7af091-9ff3-4afc-ada8-05e74516fa9c"
+					(reference "J3")
 					(unit 1)
 				)
 			)
