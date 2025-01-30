@@ -3558,8 +3558,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "045b0cab-443c-45ec-bc18-8d57f142108b")
-		(property "Reference" "C21"
-			(at 195.58 121.666 0)
+		(property "Reference" "C209"
+			(at 195.326 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3568,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 195.326 124.206 0)
+			(at 195.58 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3612,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C21")
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -3627,8 +3627,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16488ab6-aade-4c4e-986b-b77a0587f0c5")
-		(property "Reference" "R15"
-			(at 59.69 114.554 90)
+		(property "Reference" "R202"
+			(at 58.166 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3679,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R15")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -3694,8 +3694,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17a11d52-a033-4416-9452-13e81cf452ca")
-		(property "Reference" "C18"
-			(at 184.912 122.174 0)
+		(property "Reference" "C206"
+			(at 185.166 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3704,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 184.658 124.46 0)
+			(at 185.166 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3748,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C18")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -3764,7 +3764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21b2ccad-b699-487c-839d-1e0d9f1d0946")
-		(property "Reference" "U5"
+		(property "Reference" "U202"
 			(at 100.33 102.87 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "U5")
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -3875,7 +3875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a2aa6ff-afb8-4153-80d9-feca0c854cbb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0213"
 			(at 180.34 86.36 0)
 			(effects
 				(font
@@ -3925,7 +3925,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR035")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -3940,8 +3940,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aa87ad4-61fc-4a77-ad94-60708b828ccc")
-		(property "Reference" "R17"
-			(at 59.69 119.634 90)
+		(property "Reference" "R204"
+			(at 58.166 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +3992,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R17")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -4007,7 +4007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dcd046e-0d4a-4cc4-a919-daf8fab21439")
-		(property "Reference" "R22"
+		(property "Reference" "R209"
 			(at 86.614 67.31 0)
 			(effects
 				(font
@@ -4061,7 +4061,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R22")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ff8012a-c761-4a4b-a9fe-ea21805b29b1")
-		(property "Reference" "R25"
+		(property "Reference" "R212"
 			(at 191.77 77.216 90)
 			(effects
 				(font
@@ -4128,7 +4128,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R25")
+					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -4144,7 +4144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bdfc76d-998f-4e03-bd46-e3ded96917b2")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0201"
 			(at 57.15 101.6 0)
 			(effects
 				(font
@@ -4195,7 +4195,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR023")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -4210,8 +4210,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41e8dfe6-7f7d-46e4-a27f-89466531ecda")
-		(property "Reference" "R18"
-			(at 59.69 122.174 90)
+		(property "Reference" "R205"
+			(at 58.166 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4262,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R18")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -4279,7 +4279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46d6737f-c2e3-4880-b8de-28e677dc40fb")
-		(property "Reference" "U3"
+		(property "Reference" "U201"
 			(at 81.28 80.7719 90)
 			(effects
 				(font
@@ -4338,7 +4338,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "U3")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b426b2c-e343-42c4-8108-081e6a096c15")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0212"
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -4405,7 +4405,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR034")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b44d1e1-aa0e-4c13-ad19-b6ab2115a7a4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0216"
 			(at 190.5 133.35 0)
 			(effects
 				(font
@@ -4472,7 +4472,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR038")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -4487,8 +4487,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b4db398-553c-459b-af63-ea0f32c3b587")
-		(property "Reference" "C20"
-			(at 205.74 90.424 0)
+		(property "Reference" "C208"
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,7 +4541,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C20")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -4557,7 +4557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71282976-e95d-4b74-8ce1-c25fea775521")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0202"
 			(at 57.15 142.24 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR024")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -4623,8 +4623,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71a597f1-de79-4f59-9f93-da16cf7f9279")
-		(property "Reference" "R20"
-			(at 59.69 127.254 90)
+		(property "Reference" "R207"
+			(at 58.166 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4675,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R20")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -4690,8 +4690,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73b34861-cb91-4186-a2dd-b0a11689d71a")
-		(property "Reference" "R21"
-			(at 59.69 129.794 90)
+		(property "Reference" "R208"
+			(at 58.166 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4742,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R21")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -4758,7 +4758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2d9e93-1c6f-49e0-a550-e49388ba22a2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0218"
 			(at 200.66 133.35 0)
 			(effects
 				(font
@@ -4809,7 +4809,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR040")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -4825,7 +4825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aae80ee-8e5d-48f6-a08d-915f0d786764")
-		(property "Reference" "J5"
+		(property "Reference" "J202"
 			(at 234.95 101.5999 0)
 			(effects
 				(font
@@ -4878,7 +4878,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "J5")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -4894,7 +4894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812add23-4518-4e4f-8dd2-b1ed0b975e9a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0204"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -4945,7 +4945,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR026")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -4960,8 +4960,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8656a16d-f4c8-4288-bf86-689ff092b243")
-		(property "Reference" "R23"
-			(at 141.986 130.81 90)
+		(property "Reference" "R210"
+			(at 140.97 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5012,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R23")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -5028,7 +5028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "868f3d15-bf05-4905-b188-42252ae390f0")
-		(property "Reference" "RV2"
+		(property "Reference" "RV201"
 			(at 102.87 81.2799 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "RV2")
+					(reference "RV201")
 					(unit 1)
 				)
 			)
@@ -5100,7 +5100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88ad4013-a200-4e5b-947d-7f54b1392fca")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0208"
 			(at 144.78 115.57 0)
 			(effects
 				(font
@@ -5151,7 +5151,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR030")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -5166,7 +5166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88bb6666-4595-4190-a830-0ec0c455fa5d")
-		(property "Reference" "J4"
+		(property "Reference" "J201"
 			(at 50.8 107.442 0)
 			(effects
 				(font
@@ -5242,7 +5242,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "J4")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -5257,7 +5257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "907a64fb-54a6-4433-84b8-1bc824548f93")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0214"
 			(at 180.34 123.19 0)
 			(effects
 				(font
@@ -5307,7 +5307,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR036")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -5322,8 +5322,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "945bb7e4-1196-41c3-a49e-faec11174550")
-		(property "Reference" "R14"
-			(at 59.69 112.014 90)
+		(property "Reference" "R201"
+			(at 58.166 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5374,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R14")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -5390,7 +5390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "987ead7f-b35f-4453-a0b1-a1b147a08038")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0210"
 			(at 162.56 115.57 0)
 			(effects
 				(font
@@ -5441,7 +5441,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR032")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -5457,7 +5457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98cbecd1-0fbc-4a9d-89ed-c58e041a4238")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0209"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR031")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -5525,7 +5525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bcc63f9-1081-4ad0-9b93-cc6a6418f02c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0206"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -5576,7 +5576,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR028")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca4dd58-bc10-4072-b3de-507d4d55645b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0211"
 			(at 162.56 133.35 0)
 			(effects
 				(font
@@ -5642,7 +5642,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR033")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -5657,7 +5657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f86219-7748-4b63-a2a4-1ac5d866ebe3")
-		(property "Reference" "R26"
+		(property "Reference" "R213"
 			(at 214.884 109.22 0)
 			(effects
 				(font
@@ -5711,7 +5711,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R26")
+					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -5726,8 +5726,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4074e7d-b99e-4eeb-94c5-515590bbc0f2")
-		(property "Reference" "R19"
-			(at 59.69 124.714 90)
+		(property "Reference" "R206"
+			(at 58.166 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +5778,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R19")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -5793,8 +5793,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a63a1b15-0773-4a18-92b2-0787254ad5ff")
-		(property "Reference" "R16"
-			(at 59.69 117.094 90)
+		(property "Reference" "R203"
+			(at 58.166 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5845,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R16")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -5861,7 +5861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7ce8ea6-a5cc-4c74-95b0-77a2bd94ed86")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0207"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -5913,7 +5913,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR029")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -5928,7 +5928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afe6e2c2-c685-4f17-9e34-112b5a3b6b43")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0203"
 			(at 85.09 66.04 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR025")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -5994,7 +5994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00eb35f-713f-48d7-a181-5a362b759391")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0217"
 			(at 200.66 101.6 0)
 			(effects
 				(font
@@ -6045,7 +6045,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR039")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -6060,8 +6060,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b653b707-26ff-4f66-a7bf-dce30384df3b")
-		(property "Reference" "C19"
-			(at 194.564 68.072 90)
+		(property "Reference" "C207"
+			(at 195.58 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6112,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C19")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -6127,7 +6127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c54f02d4-2803-44d5-b60e-ccbaafe163fc")
-		(property "Reference" "C11"
+		(property "Reference" "C201"
 			(at 117.348 81.788 0)
 			(effects
 				(font
@@ -6181,7 +6181,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C11")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -6196,7 +6196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9c4c1f3-093a-4353-8dad-610752d4fb10")
-		(property "Reference" "C14"
+		(property "Reference" "C202"
 			(at 139.7 124.968 90)
 			(effects
 				(font
@@ -6250,7 +6250,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C14")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -6266,7 +6266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce95de56-c582-41ac-9879-783fd39408b0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0205"
 			(at 100.33 96.52 0)
 			(effects
 				(font
@@ -6317,7 +6317,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR027")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6332,7 +6332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5a9d94d-d1fa-47aa-b201-99b6211c720f")
-		(property "Reference" "C22"
+		(property "Reference" "C210"
 			(at 215.9 119.38 0)
 			(effects
 				(font
@@ -6386,7 +6386,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C22")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -6402,7 +6402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db4c2f3e-fda7-4cfc-8c45-476570612f49")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0215"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -6453,7 +6453,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR037")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -6469,7 +6469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2129c41-d244-42c7-9f0c-2df6c05085f4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0219"
 			(at 213.36 133.35 0)
 			(effects
 				(font
@@ -6520,7 +6520,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "#PWR041")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -6535,8 +6535,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8d60d3e-73e6-4ee4-b7d6-e60f442d6581")
-		(property "Reference" "C17"
-			(at 196.088 89.916 0)
+		(property "Reference" "C205"
+			(at 187.96 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6545,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 196.342 87.63 0)
+			(at 189.484 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6589,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C17")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eae5ce03-3280-4ede-9985-ee993ee20e0d")
-		(property "Reference" "U6"
+		(property "Reference" "U203"
 			(at 187.96 109.474 0)
 			(effects
 				(font
@@ -6667,7 +6667,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "U6")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -6682,8 +6682,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec950b62-44ea-498a-8df2-389ce74ce0db")
-		(property "Reference" "C15"
-			(at 157.734 124.714 90)
+		(property "Reference" "C203"
+			(at 160.02 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6736,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C15")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -6751,7 +6751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ede58007-e970-48cc-a0e3-4158acd29ad8")
-		(property "Reference" "C16"
+		(property "Reference" "C204"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -6805,7 +6805,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "C16")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -6820,8 +6820,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdb32983-55b5-40b6-b2da-7bdb78aca6f7")
-		(property "Reference" "R24"
-			(at 141.478 133.096 90)
+		(property "Reference" "R211"
+			(at 140.462 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6872,7 @@
 		(instances
 			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/d7b1beb2-d1b4-4fd6-841d-9655fbd1005d"
-					(reference "R24")
+					(reference "R211")
 					(unit 1)
 				)
 			)
