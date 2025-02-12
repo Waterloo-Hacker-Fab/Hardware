@@ -1662,6 +1662,104 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "SMA_Connector:RF2-04A-T-00-50-G"
 			(pin_names
 				(offset 0.254)
@@ -3668,6 +3766,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d61caba5-d2a6-482f-941d-d54cf437e4a3")
 		)
@@ -3730,6 +3855,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/texas-instruments/DAC0800LCM-NOPB/182304 "
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments "
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "DAC0800LCM/NOPB "
 			(at 134.62 129.54 0)
 			(effects
 				(font
@@ -3920,6 +4072,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/texas-instruments/TL431AIDBZR/686856 "
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments "
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TL431AIDBZR "
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "306ce827-446b-4a02-b712-36f192f27d38")
 		)
@@ -3956,7 +4135,7 @@
 				)
 			)
 		)
-		(property "Value" "TDA2050"
+		(property "Value" "LM1857 "
 			(at 191.77 105.664 0)
 			(effects
 				(font
@@ -3974,7 +4153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/resource/en/datasheet/cd00000131.pdf"
+		(property "Datasheet" "~"
 			(at 186.69 101.6 0)
 			(effects
 				(font
@@ -3984,6 +4163,33 @@
 			)
 		)
 		(property "Description" "32W Hi-Fi Audio Amplifier, TO-220-5"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM1875T-NOPB/1669 "
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments "
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "LM1875T/NOPB "
 			(at 186.69 101.6 0)
 			(effects
 				(font
@@ -4068,6 +4274,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83af897e-8f78-4563-9bf4-99cdf4b06c47")
 		)
@@ -4129,6 +4362,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/EEE-FC1E470P/817417"
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "EEE-FC1E470P"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -4263,6 +4523,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -4540,6 +4827,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C680K5GAC7800/2213073 "
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET "
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "C0805C680K5GACTU "
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dd67edb-701b-49fa-a27c-9c8d04c745ea")
 		)
@@ -4676,6 +4990,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/EEH-ZS1E471P/12550087 "
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components "
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "EEH-ZS1E471P "
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75eea7f0-0244-4cf6-a027-e0ac97b4a969")
 		)
@@ -4735,6 +5076,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/te-connectivity-passive-product/RLC73K2A1R0FTD/19238956 "
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product "
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RLC73K2A1R0FTD "
 			(at 149.86 130.81 0)
 			(effects
 				(font
@@ -4804,6 +5172,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C104K5RAC7800/411169 "
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET "
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "C0805C104K5RACTU "
 			(at 204.47 88.9 0)
 			(effects
 				(font
@@ -4940,6 +5335,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C472KDRACAUTO/8109840 "
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET "
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "C0805C472KDRACAUTO "
 			(at 217.17 120.65 0)
 			(effects
 				(font
@@ -5087,6 +5509,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adam-tech/RF2-04A-T-00-50-G/9830588 "
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adam Tech "
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RF2-04A-T-00-50-G "
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01316405-083f-45b5-8f15-8b8d82a5edc1")
 		)
@@ -5145,6 +5594,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/bourns-inc/CR0805-JW-102ELF/3593156 "
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc. "
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CR0805-JW-102ELF "
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -5214,6 +5690,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C103F5GECAUTO/8647276 "
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET "
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "C0805C103F5GECAUTO "
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -5356,6 +5859,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "877cee18-43e8-4ebf-b5bd-702fb46e7cce")
 		)
@@ -5488,6 +6018,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d453425-1f19-44ba-a841-e22b50e297b3")
 		)
@@ -5547,6 +6104,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/te-connectivity-passive-product/RLC73K2A1R0FTD/19238956 "
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product "
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RLC73K2A1R0FTD "
 			(at 149.86 128.27 0)
 			(effects
 				(font
@@ -5690,6 +6274,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bedf5c77-3a3f-4002-aeb6-fe92c87177f6")
 		)
@@ -5814,6 +6425,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
 			(at 67.31 114.3 0)
 			(effects
 				(font
@@ -6020,6 +6658,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/rohm-semiconductor/ESR10EZPJ153/4051313 "
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Rohm Semiconductor "
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ESR10EZPJ153 "
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3cff4be5-9308-45f9-94f3-58261eb72841")
 		)
@@ -6156,6 +6821,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C104K5RAC7800/411169 "
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET "
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "C0805C104K5RACTU "
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8851ce7a-4f36-4137-855f-44189946994b")
 		)
@@ -6215,6 +6907,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW0805100RJNEC/5073580 "
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW0805100RJNEC "
 			(at 67.31 124.46 0)
 			(effects
 				(font
@@ -6292,6 +7011,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C104K5RAC7800/411169 "
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET "
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "C0805C104K5RACTU "
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01a14af4-a97b-42e4-9a21-320317d2908f")
 		)
@@ -6353,6 +7099,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/bourns-inc/CR0805AFX-10R0EAS/10240125 "
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc. "
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CR0805AFX-10R0EAS "
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -6495,6 +7268,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/harwin-inc/M22-2511005/2264297 "
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin Inc. "
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "M22-2511005 "
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "d1009550-e885-4b3b-8b5e-cadd004b4490")
 		)
@@ -6589,6 +7389,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-09806/7319606?s=N4IgTCBcDaIMIHkCyBaADATgBxoGwgF0BfIA "
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SparkFun Electronics "
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "COM-09806 "
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91c7bea1-0aa0-420a-8d87-d8c7f3d2b73b")
 		)
@@ -6653,6 +7480,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 194.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/EEH-ZS1E471P/12550087 "
+			(at 194.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components "
+			(at 194.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "EEH-ZS1E471P "
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -6810,6 +7664,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 233.68 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc3a732e-14a9-4245-a611-cd5a511d11f8")
+		(property "Reference" "HS2"
+			(at 231.902 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 229.87 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "V6560Y:V6560Y"
+			(at 233.9848 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.9848 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/assmann-wsw-components/v6560y/3511467"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Assmann WSW Components"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "V6560Y"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "piezo_nanopositioner_v1"
+				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/2b7af091-9ff3-4afc-ada8-05e74516fa9c"
+					(reference "HS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 204.47 120.65 0)
 		(unit 1)
@@ -6855,6 +7799,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C104K5RAC7800/411169 "
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET "
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "C0805C104K5RACTU "
 			(at 204.47 120.65 0)
 			(effects
 				(font

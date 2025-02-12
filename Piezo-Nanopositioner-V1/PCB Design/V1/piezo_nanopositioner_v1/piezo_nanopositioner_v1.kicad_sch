@@ -1353,6 +1353,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/rubycon/50YXJ100MT78X11-5/3134938"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Rubycon"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "50YXJ100MT78X11.5"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3883c76c-0160-48e1-a131-ba2253960841")
 		)
@@ -1412,6 +1439,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825 "
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik "
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "61300311121 "
 			(at 205.74 88.9 0)
 			(effects
 				(font
@@ -1627,6 +1681,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/rubycon/50YXJ100MT78X11-5/3134938"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Rubycon"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "50YXJ100MT78X11.5"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b5ef97c-0411-47cf-a2c2-f1b6be40d47f")
 		)
@@ -1714,6 +1795,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/onsemi/1N4001RLG/917621 "
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi "
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "1N4001RLG "
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b688a33-9f97-4ae8-a20e-2b9368991359")
 		)
@@ -1793,6 +1901,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/onsemi/1N4001RLG/917621 "
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi "
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "1N4001RLG "
 			(at 229.87 95.25 0)
 			(effects
 				(font
