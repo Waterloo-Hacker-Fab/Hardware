@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\Radu D\Documents\Code\hackerfab\Hardware\Piezo-Nanopositioner-V1\LTspice Simulation\piezo_nanopositioner.asc
-Start Time: Wed Feb 19 01:30:12 2025
+Start Time: Wed Feb 19 22:41:53 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -29,5 +29,5 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.862 seconds.
+Total elapsed time: 0.344 seconds.
 
