@@ -5393,7 +5393,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/1b533877-0759-4ff4-afbe-7d3193837966"
 					(reference "HS1")
 					(unit 1)
@@ -7093,7 +7093,7 @@
 			(uuid "a813ad9f-a1eb-4c61-b7a4-55f2adf12a45")
 		)
 		(instances
-			(project ""
+			(project "piezo_nanopositioner_v1"
 				(path "/7b2a32d8-cc7d-471d-a8eb-eea62713ed45/1b533877-0759-4ff4-afbe-7d3193837966"
 					(reference "J402")
 					(unit 1)
