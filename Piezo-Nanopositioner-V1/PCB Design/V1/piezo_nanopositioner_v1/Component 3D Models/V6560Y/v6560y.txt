@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-27012023-063900";"";
+"REFERENCE";"V6560Y";"";
+"TraceParts.PartTitle";"Extruded heatsinks with solderpins 8K/W 50x29x12mm black anodized TO-220";"";
+"TraceParts.InstanceId";"90-27012023-06390078P2ST6ENTHNY6M228NL8S6AD";"";
+"DESIGN";"Extruded heatsinks with solderpins 8K/W 50x29x12mm black anodized TO-220";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"ASSMANN WSW components";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"ASSMANN:90-27012023-063900";"";

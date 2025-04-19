@@ -1,4 +1,4 @@
-23334566863775695
+23336311897509471
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63895,6 +63895,13 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+Molex Connector
+CONN_39880-0303_MOL
+
+398800303 
+0
+3
+3
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf

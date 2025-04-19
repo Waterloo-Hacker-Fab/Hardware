@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Molex Connector")(type "KiCad")(uri "${KIPRJMOD}/Component 3D Models/Molex_398800303/KiCADv6/2025-04-18_23-35-29.kicad_sym")(options "")(descr ""))
+)
