@@ -1,12 +1,41 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 37,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [
       "Default"
     ],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "",
+      "+15V",
+      "GND",
+      "-15V",
+      "/Z_DAC/VRef+",
+      "Net-(U402-COMP)",
+      "Net-(U402-IOUT)",
+      "Net-(J402-Sig)",
+      "Net-(C410-Pad1)",
+      "Net-(J401-Pin_9)",
+      "Net-(J401-Pin_8)",
+      "Net-(J401-Pin_6)",
+      "Net-(J401-Pin_3)",
+      "Net-(J401-Pin_2)",
+      "Net-(J401-Pin_4)",
+      "Net-(J401-Pin_7)",
+      "Net-(J401-Pin_5)",
+      "Net-(U402-B1)",
+      "Net-(U402-B2)",
+      "Net-(U402-B3)",
+      "Net-(U402-B4)",
+      "Net-(U402-B5)",
+      "Net-(U402-B6)",
+      "Net-(U402-B7)",
+      "Net-(U402-B8)",
+      "Net-(U402-VREF(-))",
+      "Net-(U402-VREF(+))",
+      "Net-(U401-REF)"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
