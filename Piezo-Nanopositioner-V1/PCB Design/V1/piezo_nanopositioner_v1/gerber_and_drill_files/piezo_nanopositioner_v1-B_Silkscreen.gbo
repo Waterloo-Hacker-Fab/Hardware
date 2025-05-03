@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
+%TF.CreationDate,2025-05-03T05:30:05-04:00*%
+%TF.ProjectId,piezo_nanopositioner_v1,7069657a-6f5f-46e6-916e-6f706f736974,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2025-05-03 05:30:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.508000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J101*%
+X253381000Y-80910599D02*
+G75*
+G02*
+X252619000Y-80910599I-381000J0D01*
+G01*
+X252619000Y-80910599D02*
+G75*
+G02*
+X253381000Y-80910599I381000J0D01*
+G01*
+%TD*%
+M02*
