@@ -3,6 +3,7 @@ fp-info-cache
 
 # Ignore any files ending with .lck
 *.lck
+*.kicad_sch-bak
 
 # Ignore KiCad auto-saved files
 \#auto_saved_files#
