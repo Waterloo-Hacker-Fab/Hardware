@@ -3417,7 +3417,7 @@
 		(at 220.97 106.49)
 		(tags "EEE-FC1E470P ")
 		(property "Reference" "C401"
-			(at -5.3528 2.75 90)
+			(at 0.03 5.76 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9ce72ea1-5917-4916-a25b-696592205aa0")
@@ -4885,7 +4885,7 @@
 		(at 169.02 79.64)
 		(tags "EEH-ZS1E471P ")
 		(property "Reference" "C306"
-			(at -6.4 -3.5 90)
+			(at -0.02 -6.39 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4f4666f5-128b-4cb5-a106-e5e5a85ba790")
@@ -9121,7 +9121,7 @@
 		(at 169.12 106.44)
 		(tags "EEE-FC1E470P ")
 		(property "Reference" "C301"
-			(at -5.3528 2.75 90)
+			(at 0.13 5.56 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b8d69a3d-9cc4-495d-a2a6-714379f1d747")
@@ -9910,7 +9910,7 @@
 		(at 117.17 79.59)
 		(tags "EEH-ZS1E471P ")
 		(property "Reference" "C206"
-			(at -6.4 -3.5 90)
+			(at 0.08 -6.59 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "45a0974c-bac5-47c7-b3d8-736c5f8df29c")
@@ -11738,7 +11738,7 @@
 		(at 117.27 106.39)
 		(tags "EEE-FC1E470P ")
 		(property "Reference" "C201"
-			(at -5.3528 2.75 90)
+			(at 0.23 5.61 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "acf0c56f-f0a0-473c-9724-6139463cc0a1")
@@ -20214,7 +20214,7 @@
 		(at 220.87 79.69)
 		(tags "EEH-ZS1E471P ")
 		(property "Reference" "C406"
-			(at -6.4 -3.5 90)
+			(at -0.12 -6.69 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8127efc2-15d0-434f-8670-af0acef94d42")
@@ -21110,6 +21110,19 @@
 		(layer "Edge.Cuts")
 		(uuid "7f58721a-28a9-4c43-9b69-cddc47fb8ff6")
 	)
+	(gr_text "+"
+		(at 192 91 0)
+		(layer "F.SilkS")
+		(uuid "194e04da-9d0d-4861-9e7b-b803f1828496")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+15V"
 		(at 247.75 88.25 90)
 		(layer "F.SilkS")
@@ -21117,7 +21130,47 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 226.5 76.5 0)
+		(layer "F.SilkS")
+		(uuid "24b7aa15-92dd-4e50-87e7-269678b7067e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 174.5 77 0)
+		(layer "F.SilkS")
+		(uuid "3549b411-3fe1-4151-a737-9112a10b39bc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 74.5 90.75 0)
+		(layer "F.SilkS")
+		(uuid "4ad480aa-2a50-4c3f-939c-143c9087b893")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -21129,7 +21182,177 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 140.25 91 0)
+		(layer "F.SilkS")
+		(uuid "825db68b-8913-4586-bd2d-3f698d1027bd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 214 109.25 0)
+		(layer "F.SilkS")
+		(uuid "863a95ff-d1cf-4cb3-b238-171991cb5ec6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 122.5 109 0)
+		(layer "F.SilkS")
+		(uuid "8b941447-9265-4623-83eb-3aa4c5cbb16c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 161 77.25 0)
+		(layer "F.SilkS")
+		(uuid "90c1ef0f-4a55-486c-b5d7-37dd93acd79a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 88.5 90.75 0)
+		(layer "F.SilkS")
+		(uuid "a2eccc09-8ce0-414f-8aac-cea0370073b6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 109.25 77 0)
+		(layer "F.SilkS")
+		(uuid "a51fdbc5-86de-4ab7-a569-479bccc62e67")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 178 91 0)
+		(layer "F.SilkS")
+		(uuid "ac23dc4d-dfdb-4476-b2e3-340a8087d233")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 162.25 109.25 0)
+		(layer "F.SilkS")
+		(uuid "b03a0c81-177c-4064-8cbc-90000f8d43ba")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 110.25 109.25 0)
+		(layer "F.SilkS")
+		(uuid "b0dca18f-34ed-4fda-9220-bffdffedcb37")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 213 76.75 0)
+		(layer "F.SilkS")
+		(uuid "bfd7c090-6cdf-4934-897c-759a5f56f76d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 174.5 109 0)
+		(layer "F.SilkS")
+		(uuid "d88e5a77-be6a-4897-a243-64ec8ed51e41")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 126.25 91 0)
+		(layer "F.SilkS")
+		(uuid "f53928ce-e0a9-4ad4-bb05-c46c45dc05e4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 122.75 76.75 0)
+		(layer "F.SilkS")
+		(uuid "f59ccc99-4a2b-47d3-a24e-6cb38a8e149f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -21141,7 +21364,21 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 226.25 109 0)
+		(layer "F.SilkS")
+		(uuid "fa1d603f-9be2-40b9-9570-94c8191f4438")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
